@@ -82,7 +82,7 @@ Build a minimal, organized GGUF (GPT-Generated Unified Format) runtime using Can
 
 ## Technical Considerations
 
-### Minimal Viable Product (MVP) Scope
+### (MVP) Scope
 - Support basic GGUF file loading
 - Implement simple text generation
 - Handle one model architecture (e.g., LLaMA)
@@ -99,7 +99,6 @@ Build a minimal, organized GGUF (GPT-Generated Unified Format) runtime using Can
 ```toml
 [dependencies]
 candle-core = "0.9.2"
-candle-nn = "0.9.2"
 candle-transformers = "0.9.2"
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
@@ -139,17 +138,3 @@ hermit/
 ├── benches/
 └── README.md
 ```
-
-## Success Metrics
-- [ ] Successfully load a GGUF model file
-- [ ] Generate coherent text from loaded model
-- [ ] Achieve reasonable inference speed
-- [ ] Maintain clean, extensible codebase
-- [ ] Comprehensive test coverage
-
-## Next Steps
-1. Start with GGUF format research
-2. Set up basic project structure
-3. Implement minimal parser
-4. Test with a simple model file
-5. Iterate and expand functionality

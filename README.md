@@ -14,6 +14,10 @@ Hermit is a lightweight runtime designed to load and execute GGUF (GPT-Generated
 - **Extensible**: Designed for future enhancements and optimizations
 
 ## Quick Start
+1. Start with GGUF format research
+2. Set up basic project structure
+3. Implement minimal parser
+4. Test with a simple model file
+5. Iterate and expand functionality
 
-> **[Note]** This project is currently in development. Examples will be updated as implementation progresses.
-
+> **[!Note]** This project is currently in development. Examples will be updated as implementation progresses.
