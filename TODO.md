@@ -6,7 +6,7 @@ Build a minimal, organized GGUF (GPT-Generated Unified Format) runtime using Can
 ## Phase 1: Foundation Setup
 - [ ] **Research GGUF Format Specification**
   - [X] Study GGUF file format structure
-  - [ ] Understand tensor metadata and encoding
+  - [x] Understand tensor metadata and encoding
   - [ ] Review existing GGUF implementations
 
 - [ ] **Project Structure Setup**
